@@ -1,0 +1,1562 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Momo+Trust+Sans:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    background-color: #FAF4EC;
+
+
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    /* background-color:red ; */
+    background-color: #FAF4EC;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.two {
+    width: 320px;
+    height: 45px;
+    /* background-color: red; */
+
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 30px;
+    border-radius: 15px;
+
+}
+
+.two p {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+
+}
+
+.three {
+    width: 140px;
+    height: 40px;
+        /* background-color: red; */
+
+    background-color: #FCB8FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 430px;
+    margin-top: 30px;
+    border-radius: 15px;
+    gap: 5px;
+    transition-property:all ;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+
+
+}
+.three:hover{
+    transform: rotate(-8deg);
+    border-radius: 9px;
+    height: 45px;
+    width: 145;
+    /* transform: scale(1.2); */
+}
+
+.three img {
+    width: 30px;
+    height: 28px;
+    background-color: white;
+    border-radius: 11px;
+    /* margin-left: 35px; */
+}
+
+.three p {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+    /* margin-left:10px; */
+}
+
+.one img {
+    width: 180px;
+    height: 78px;
+    margin-left: 30px;
+    margin-top: 10px;
+    /* background-color: white; */
+    /* border-radius: 11px; */
+}
+
+.section-one {
+    width:1000px;
+    height: 350px;
+        /* background-color: red; */
+
+    /* background-color: #FCB8FA; */
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+.section-one p {
+    font-size: 94px;
+    font-weight: 700;
+    font-family: "Momo Trust Sans", sans-serif;
+    line-height: 100px;
+    color: #161616;
+}
+
+.section-one h3 {
+    font-size: 27px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+    /* line-height: 100px; */
+    color: #161616;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.section-two {
+    width: 100%;
+    height: 400px;
+        /* background-color: blue; */
+
+    /* background-color: #FCB8FA; */
+    /* margin-top: 90px; */
+    /* margin-left:40px ; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    gap: 40px;
+}
+
+.section-two-one {
+    width: 25%;
+    height: 450px;
+    background-color: #0D8DFF;
+    /* margin-top: ; */
+    margin-left: 30px;
+    border-radius: 40px;
+    /* padding-left: 30px;
+    padding-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* rotate: 8deg;
+    transition-property:all ;
+    transition-duration: .1s;
+    transition-timing-function: linear; */
+
+
+}
+.section-two-one img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+        border-radius: 40px;
+
+}
+/* .section-two-one:hover{
+    transform: rotate(-8deg);
+    /* border-radius: 9px;
+    height: 45px;
+    width: 145; */
+    /* transform: scale(1.2);
+ */ */
+
+
+
+
+.section-two-two {
+    width:25%;
+    height: 450px;
+    /* background-color: rgb(138, 23, 44); */
+    /* margin-left: 30px; */
+    border-radius: 40px;
+    /* padding-top: 20px; */
+    /* padding-right: 30px; */
+    object-fit: cover;
+     /* rotate: -8deg; */
+      /* transition-property:all ;
+    transition-duration: .1s;
+    transition-timing-function: linear; */
+
+
+}
+/* .section-two-two:hover{
+    transform: rotate(8deg);
+    /* border-radius: 9px;
+    height: 45px;
+    width: 145; */
+    /* transform: scale(1.2);
+} */ 
+
+
+.section-two-three {
+    width: 25%;
+    height: 450px;
+    background-color: #33C791;
+    /* margin-left: 30px; */
+    border-radius: 40px;
+    /* padding-left: 30px; */
+    /* padding-top: 20px; */
+    /* padding-right: 30px; */
+     /* rotate: 8deg; */
+      /* transition-property:all ;
+    transition-duration: .1s;
+    transition-timing-function: linear; */
+
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* rotate: 8deg;
+    transition-property:all ;
+    transition-duration: .1s;
+    transition-timing-function: linear; */
+
+
+}
+.section-two-three img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+        border-radius: 40px;
+
+}
+
+
+/* .section-two-three:hover{
+    transform: rotate(-8deg);
+    /* border-radius: 9px;
+    height: 45px;
+    width: 145; */
+    /* transform: scale(1.2);
+} */ 
+
+
+.section-two-four {
+    width: 25%;
+    height: 450px;
+    /* background-color: green; */
+    margin-right: 30px;
+    /* margin-left: 30px; */
+    border-radius: 40px;
+    /* padding-left: 30px; */
+    /* padding-top: 20px; */
+    /* padding-right: 30px; */
+     /* rotate: -8deg; */
+      /* transition-property:all ;
+    transition-duration: .1s;
+    transition-timing-function: linear; */
+
+
+}
+/* .section-two-four:hover{
+    transform: rotate(8deg);
+    /* border-radius: 9px;
+    height: 45px;
+    width: 145; */
+    /* transform: scale(1.2);
+} */ 
+
+/* 
+.section-two-one hr {
+    color:black;
+    margin-right: 30px;
+}
+
+.section-two-one h1 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+}
+
+.section-two-one p {
+    margin-top: 260px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Momo Trust Sans", sans-serif;
+}
+
+.section-two-one h3 {
+    font-size:18px;
+    font-weight: 500;
+    font-family:"Momo Trust Sans", sans-serif;
+}
+
+.section-two-three hr {
+
+    margin-right:6m0px;
+    background-color:black;
+}
+
+.section-two-three h1 {
+    font-size:60px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif;
+}
+
+.section-two-three p {
+     margin-top: 260px;
+    font-size:30px;
+    font-weight:500;
+    font-family:"Momo Trust Sans", sans-serif;
+}
+
+.section-two-three h3 {
+    font-size:18px;
+    font-weight:500;
+    font-family:"Momo Trust Sans", sans-serif;
+} */
+.section-two-two video{
+    width:341px;
+    height: 450px;
+    border-radius: 40px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    object-fit: cover;
+   
+   
+}
+.section-two-four video{
+    width:341px;
+    height: 450px;
+    border-radius: 40px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    object-fit: cover;
+   
+}
+.section-three{
+    width:100% ;
+    height:350px ;
+    /* background-color: #33C791; */
+    margin-top:70px;
+}
+.section-three p{
+    margin-top: 200px;
+    font-size:60px;
+    font-weight:700;
+    font-family:"Momo Trust Sans", sans-serif; 
+    line-height:65px;
+    margin-left: 170px;
+}
+.section-four{
+    width:100%;
+    height:350px;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.section-four-one img{
+  /* width:250px ; */
+  height:330px ;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+.section-four-two-one p{
+    margin-top: 90px;
+ margin-left: 150px;
+  font-size:26px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    /* line-height:65px; */
+}
+.section-four-two-two{
+    width:190px;
+    height:43px;
+    border: 1px solid rgb(38, 36, 36);
+    margin-left: 150px;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 20px;
+     transition-property:all ;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}  
+
+.section-four-two-two:hover{
+    transform: rotate(-6deg);
+    border-radius: 8px;
+    height:48px;
+    width: 195;
+    /* transform: scale(.2); */
+}
+
+
+
+.section-four-two-two p{
+      font-size:17px;
+    font-weight:700;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color: rgb(38, 36, 36);
+    margin-left: 8px;
+} 
+.section-four-two-two i{
+    width:35px;
+    height:35px;
+    color:white;
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    /* gap:9px; */
+    margin-left: 15px;
+
+
+}
+.section-four-three{
+     width: 45px;
+    height:45px;
+    border:1px solid black;
+    border-radius: 10px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:270px ;
+    margin-left: 350px;
+     
+}
+.section-four-three i:hover{
+    transform: translate(20px);
+}
+
+
+.section-five{
+    width:1450px;
+    height:610px;
+    /* background-color: #FA5424; */
+    background-color:#FFFFFF;   
+    border-radius: 40px;
+    display:flex;
+    margin-left: 35px;
+    margin-top: 180px;
+}
+.section-five-one-one{
+    width:110px;
+    height:40px;
+    background-color:#EAE4D8 ;
+    /* color:; */
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left:60px ;
+
+}
+
+.section-five-one-one p{
+      font-size:20px;
+    font-weight:500;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+}
+.section-five-one-two p{
+     font-size:100px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+        margin-left:60px ;
+        margin: top 10px;   
+}
+.section-five-one-two h2{
+     font-size:28px;
+    font-weight:700;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+        margin-left:60px ;
+        margin-top: 120px;   
+}
+.section-five-one-two h3{
+     font-size:19px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+        margin-left:60px ;  
+        margin-top:15px; 
+}
+.section-five-one-three{
+    width:260px;
+    height:43px;
+    background-color: #FA5424;
+    margin-left: 60px;
+    border-radius: 12px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 25px;
+     transition-property:all ;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+}
+
+
+
+.section-five-one-three:hover{
+    transform: rotate(-8deg);
+    border-radius: 8px;
+    height:45px;
+    width: 270;
+    /* transform: scale(.2); */
+}
+.section-five-one-three p{
+      font-size:16px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color: #FFFFFF;
+    margin-left: 8px;
+} 
+.section-five-one-three i{
+    width:35px;
+    height:35px;
+    color:black;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    /* gap:9px; */
+    margin-left:13px;
+}
+.section-five-two-one p{
+    margin-top:30px ;
+    margin-left:470px ;
+    font-size:100px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:#E5E0D4;
+
+}
+.section-five-two-two {
+    width:300px;
+    height:400px;
+    border: 8px solid #FA5424;
+    border-radius: 20px;
+    margin-top:30px ;
+    margin-left:280px ;
+    /* rotate: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-five-two-two video {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius:10px ;
+
+}
+
+.section-six{
+    width:1450px;
+    height:610px;
+    background-color:#FCB8FA;
+    border-radius: 40px;
+    display:flex;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.section-six-one-one{
+    width:110px;
+    height:40px;
+    background-color:#FFFFFF ;
+    /* color:; */
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left:60px ;
+
+}
+
+.section-six-one-one p{
+      font-size:20px;
+    font-weight:500;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+}
+.section-six-one-two p{
+     font-size:100px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+        margin-left:60px ;
+        margin: top 10px;   
+}
+.section-six-one-two h2{
+     font-size:28px;
+    font-weight:700;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+        margin-left:60px ;
+        margin-top: 120px;   
+}
+.section-six-one-two h3{
+     font-size:19px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+        margin-left:60px ;  
+        margin-top:15px; 
+}
+.section-six-one-three{
+    width:260px;
+    height:43px;
+    background-color: #FFFFFF;
+    margin-left: 60px;
+    border-radius: 12px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 25px;
+
+     transition-property:all ;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+}
+.section-six-one-three:hover{
+    transform: rotate(-8deg);
+    border-radius: 8px;
+    height:45px;
+    width: 270;
+    /* transform: scale(.2); */
+}
+
+
+.section-six-one-three p{
+      font-size:16px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color: black;
+    margin-left: 8px;
+} 
+.section-six-one-three i{
+    width:35px;
+    height:35px;
+    color:#FFFFFF;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    /* gap:9px; */
+    margin-left:15px;
+}
+.section-six-two-one p{
+    margin-top:30px ;
+    margin-left:360px ;
+    font-size:100px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:#FDD0FE   ;
+
+}
+.section-six-two-two {
+    width:300px;
+    height:400px;
+    border: 8px solid #FFFFFF;
+    border-radius: 20px;
+    margin-top:30px ;
+    margin-left:190px ;
+    /* rotate: 10px; */
+
+}
+.section-six-two-two video {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius:10px ;
+
+}
+
+
+.section-seven{
+    width:1450px;
+    height:610px;
+    background-color:#33C791;
+    border-radius: 40px;
+    display:flex;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.section-seven-one-one{
+    width:110px;
+    height:40px;
+    background-color:#FFFFFF ;
+    /* color:; */
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left:60px ;
+
+}
+
+.section-seven-one-one p{
+      font-size:20px;
+    font-weight:500;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+}
+.section-seven-one-two p{
+     font-size:100px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+        margin-left:60px ;
+        margin: top 10px;   
+}
+.section-seven-one-two h2{
+     font-size:28px;
+    font-weight:700;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+        margin-left:60px ;
+        margin-top: 120px;   
+}
+.section-seven-one-two h3{
+     font-size:19px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+        margin-left:60px ;  
+        margin-top:15px; 
+}
+.section-seven-one-three{
+    width:210px;
+    height:43px;
+    background-color: #FFFFFF;
+    margin-left: 60px;
+    border-radius: 12px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 25px;
+     transition-property:all ;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+}
+.section-seven-one-three:hover{
+    transform: rotate(-8deg);
+    border-radius: 8px;
+    height:45px;
+    width: 270;
+    /* transform: scale(.2); */
+}
+.section-seven-one-three p{
+      font-size:16px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color: black;
+    margin-left: 8px;
+} 
+.section-seven-one-three i{
+    width:35px;
+    height:35px;
+    color:#FFFFFF;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    /* gap:9px; */
+    margin-left: 6px;
+}
+.section-seven-two-one p{
+    margin-top:30px ;
+    margin-left:680px ;
+    font-size:100px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:#73E2B6;
+
+}
+.section-seven-two-two {
+    width:300px;
+    height:400px;
+    border: 8px solid #FFFFFF;
+    border-radius: 20px;
+    margin-top:30px ;
+    margin-left:510px ;
+    /* rotate: 10px; */
+
+}
+.section-seven-two-two video {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius:10px ;
+
+}
+
+
+
+
+
+.section-eight{
+    width:1450px;
+    height:610px;
+    background-color:#0D8DFF;
+    border-radius: 40px;
+    display:flex;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.section-eight-one-one{
+    width:110px;
+    height:40px;
+    background-color:#FFFFFF ;
+    /* color:; */
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left:60px ;
+
+}
+
+.section-eight-one-one p{
+      font-size:20px;
+    font-weight:500;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+}
+.section-eight-one-two p{
+     font-size:100px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+        margin-left:60px ;
+        margin: top 10px;   
+}
+.section-eight-one-two h2{
+     font-size:28px;
+    font-weight:700;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+        margin-left:60px ;
+        margin-top: 166px;   
+}
+.section-eight-one-two h3{
+     font-size:19px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:black;
+        margin-left:60px ;  
+        margin-top:15px; 
+}
+.section-eight-one-three{
+    width:175px;
+    height:43px;
+    background-color: #FFFFFF;
+    margin-left: 60px;
+    border-radius: 12px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 25px;
+     transition-property:all ;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+}
+.section-eight-one-three:hover{
+    transform: rotate(-8deg);
+    border-radius: 8px;
+    height:45px;
+    width: 270;
+    /* transform: scale(.2); */
+}
+.section-eight-one-three p{
+      font-size:16px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color: black;
+    margin-left: 8px;
+} 
+.section-eight-one-three i{
+    width:35px;
+    height:35px;
+    color:#FFFFFF;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    /* gap:9px; */
+    margin-left:11px;
+}
+.section-eight-two-one p{
+    margin-top:30px ;
+    margin-left:750px ;
+    font-size:100px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color:#28AAFF;
+
+}
+.section-eight-two-two {
+    width:300px;
+    height:400px;
+    border: 8px solid #FFFFFF;
+    border-radius: 20px;
+    margin-top:30px ;
+    margin-left:590px ;
+    /* rotate: 10px; */
+
+}
+.section-eight-two-two video {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius:10px ;
+
+}
+.section-nine{
+    margin-top:150px;
+    width:800px ;
+    height:1000 ;
+    margin-left: 150px;
+    /* background-color: #33C791; */
+}
+.section-nine-one p{
+    /* margin-top: 90px; */
+ /* margin-left: 150px; */
+  font-size:100px;
+    font-weight:700;
+    font-family:"Momo Trust Sans", sans-serif; 
+    line-height:90px;
+}
+
+.section-nine-one h3{
+    margin-top: 30px;
+ /* margin-left: 150px; */
+  font-size:24px;
+    font-weight:500;
+    font-family:"Momo Trust Sans", sans-serif; 
+    /* line-height:65px; */
+}
+.section-nine-two{
+    width:190px;
+    height:43px;
+    border: 1px solid rgb(38, 36, 36);
+    /* margin-left: 150px; */
+    border-radius: 12px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 20px;
+     transition-property:all ;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+
+
+}
+
+
+.section-nine-two:hover{
+    transform: rotate(-8deg);
+    border-radius: 8px;
+    height:45px;
+    /* width: 195px; */
+    /* transform: scale(.2); */
+}
+.section-nine-two p{
+      font-size:16px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color: rgb(38, 36, 36);
+    margin-left: 8px;
+} 
+.section-nine-two i{
+    width:35px;
+    height:35px;
+    color:white;
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* gap:9px; */
+    margin-left:4px;
+
+
+}
+.section-ten{
+    width:1400px;
+    height:600px;
+    /* background-color:red ; */
+    display: flex;
+}
+.section-ten-one{
+     width:370px;
+    height:500px;
+    border: 8px solid #FA5424;
+    border-radius: 30px;
+    margin-top:80px ;
+    margin-left:330px ;
+    position: relative;
+    transition-property:all ;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+}
+.section-ten-one:hover{
+    transform: rotate(-5deg);
+    /* border-radius: 8px; */
+    /* height:45px; */
+    /* width: 195px; */
+    /* transform: scale(.2); */
+}
+.section-ten-one video{
+    height: 100%;
+    width:100% ;
+    border-radius: 20px;
+    object-fit: cover;
+  /* position: absolute; */
+
+
+}
+
+.section-ten-two{
+      width:370px;
+    height:500px;
+    border: 8px solid #0D8DFF;
+    border-radius: 30px;
+    /* margin-top:30px ; */
+    margin-left:90px ;
+     transition-property:all ;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+}
+.section-ten-two:hover{
+    transform: rotate(-5deg);
+    /* border-radius: 8px; */
+    /* height:45px; */
+    /* width: 195px; */
+    /* transform: scale(.2); */
+}
+.section-ten-two video{
+    height: 100%;
+    width:100% ;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+/* .section-ten-one-two{
+    position: absolute;
+    width:320px;
+    height:350px;
+    background-color: #FA5424;
+    clip-path:polygon(0 65%,100% 34%,100% 100%, 0% 100%);
+    top:100px ;
+    margin-left: 20px;
+    /* border-radius: 20px; */
+    /* clip-path:inset(0 0 0 0 round 0 40px 0 0); */
+    
+
+*/
+.wrapper {
+  border-radius: 20px;     /* Rounded corners */
+  overflow: hidden;         /* Keep clip-path inside rounded edges */
+}
+
+.shape {
+  clip-path: polygon(0 65%, 100% 34%, 100% 100%, 0% 100%);
+  /* background-color: #4a90e2; */
+  height:250px;
+}
+.section-eleven{
+    width:800px ;
+    height:200px ;
+    /* background-color:red ; */
+    margin-top: 130px;
+    margin-left: 30px;
+    
+}   
+.section-eleven p{
+      font-size:65px;
+    font-weight:600;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color: black;
+    line-height: 60px;
+}
+.section-twelve{
+    width:1500px;
+    height:280px;
+    /* background-color: #FCB8FA; */
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap:10px;
+
+
+}
+.section-twelve-one{
+    width:20%;
+    height: 280;
+    border:1px solid #161616;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.section-twelve-one img{
+    height:100% ;
+    width: 100%;
+    border-radius: 19px;
+}
+
+.section-twelve-two{
+    width:20%;
+    height: 280;
+    border:1px solid #161616;
+    border-radius: 20px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.section-twelve-two img{
+    height:100% ;
+    width: 100%;
+    border-radius: 19px;
+}
+
+
+.section-twelve-three{
+    width:20%;
+    height: 280;
+    border:1px solid #161616;
+    border-radius: 20px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.section-twelve-three img{
+    height:100% ;
+    width: 100%;
+    border-radius: 19px;
+}
+
+
+.section-twelve-four{
+    width:20%;
+    height: 280;
+    border:1px solid #161616;
+    border-radius: 20px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.section-twelve-four img{
+    height:100% ;
+    width: 100%;
+    border-radius: 19px;
+}
+
+
+.section-twelve-five{
+    width:20%;
+    height: 280;
+    border:1px solid #161616;
+    border-radius: 20px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.section-twelve-five img{
+    height:100% ;
+    width: 100%;
+    border-radius: 19px;
+}
+
+
+ footer hr{ 
+     margin-top: 100px;
+     color: #161616;
+     margin-left:20px ;
+     margin-right:20px ;
+}
+footer{
+  width:100% ;
+    height:750px ;
+    /* background-color: #0D8DFF; */
+    position: relative;
+}
+/* .section-thirteen{ */
+    /* background-color: #28AAFF; */
+/* } */
+
+
+
+.section-thirteen-one p{
+  font-size:95px;
+    font-weight:700;
+    font-family:"Momo Trust Sans", sans-serif; 
+    color: black;
+    top:250px ;
+    left: 380px;
+    position: absolute;
+}
+
+.section-thirteen-two-two{
+    width: 160px;
+    height: 45px;
+        /* background-color: red; */
+
+    background-color: #FA5424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 775px;
+    top: 400px;
+    border-radius: 13px;
+    gap: 5px;
+    position: absolute;
+      transition-property:all ;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+}  
+
+.section-thirteen-two-two:hover{
+    transform: rotate(-10deg);
+    border-radius: 8px;
+    height:48px;
+    width: 165;
+    /* transform: scale(.2); */
+}
+
+
+
+
+
+.section-thirteen-two-two img{
+    width: 35px;
+    height: 34px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 13px;
+}
+
+.section-thirteen-two-two p {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+    color: white;
+    margin-left: 5px;
+}
+
+.section-thirteen-two-one{
+    width: 180px;
+    height: 45px;
+        /* background-color: red; */
+
+    /* background-color:; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 570px;
+    top: 400px;
+    border-radius: 13px;
+    gap: 5px;
+    position: absolute;
+    border: 1px solid black;
+
+}
+.section-thirteen-two-one-one{
+ width:35px;
+    height:35px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+
+}
+
+.section-thirteen-two-one img{
+   
+    width:20px;
+    height:19px;
+    /* background-color: black; */
+}
+   
+
+
+.section-thirteen-two-one p {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+    color: black;
+    /* margin-left: 5px; */
+}
+
+.custom-shape-divider-bottom-1763617489 {
+    position: absolute;
+    bottom: 0;
+    left:40px;
+    /* right:40px ; */
+    width: 1440px;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    border-radius: 40px 30px 40px 40px;
+}
+
+.custom-shape-divider-bottom-1763617489 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 353px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1763617489 .shape-fill {
+    fill: #EAE4D8;
+}
+.sty img{
+    width:120px;
+    height:120px ;
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 15px;
+    rotate: -15deg;
+
+}
+
+.fourteeni{
+    display: flex;
+    /* background-color: #28AAFF; */
+    width: 100%;
+    height: 500px;
+}
+
+.fourteeng{
+    width: 90px;
+    height: 35px;
+        /* background-color: red; */
+
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 880px;
+    top: 550px;
+    border-radius: 8px;
+    gap: 5px;
+    position: absolute;}
+    
+.fourteeng p {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+    color: black;
+    margin-left: 5px;
+}
+.fourteenh{
+    width: 60px;
+    height: 35px;
+        /* background-color: red; */
+
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 980px;
+    top: 550px;
+    border-radius: 8px;
+    gap: 5px;
+    position: absolute;}
+    
+.fourteenh p{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+    color: black;
+    margin-left: 5px;
+}
+.fourteeno{
+    width: 60px;
+    height: 35px;
+        /* background-color: red; */
+
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1050px;
+    top: 550px;
+    border-radius: 8px;
+    gap: 5px;
+    position: absolute;}
+    
+.fourteeno p {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+    color: black;
+    margin-left: 5px;
+}
+.fourteens{
+    width: 90px;
+    height: 35px;
+        /* background-color: red; */
+
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1120px;
+    top: 550px;
+    border-radius: 8px;
+    gap: 5px;
+    position: absolute;}
+    
+.fourteens p {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+    color: black;
+    margin-left: 5px;
+}
+.fourteen1 p {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Momo Trust Sans", sans-serif;
+    color: black;
+    position: absolute;
+    margin-left: 880px;
+    margin-top:125px ;
+}
+.fourteen2{
+    width: 40px;
+    height:40px;
+        /* background-color: red; */
+
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 980px;
+    top: 620px;
+    border-radius:50% ;
+    gap: 5px;
+    position: absolute;}
+    
+.fourteen2 p {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+    color: black;
+    /* margin-left: 5px; */
+}
+.fourteen3{
+    width: 40px;
+    height:40px;
+        /* background-color: red; */
+
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1028px;
+    top: 620px;
+    border-radius:50% ;
+    gap: 5px;
+    position: absolute;}
+    
+.fourteen3 p {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+    color: black;
+    /* margin-left:     5px; */
+}
+.fourteen4{
+    width: 40px;
+    height:40px;
+        /* background-color: red; */
+
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1077px;
+    top: 620px;
+    border-radius:50% ;
+    gap: 5px;
+    position: absolute;}
+    
+.fourteen4 p {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+    color: black;
+    /* margin-left: 5px; */
+}
+.fourteen5{
+    width: 40px;
+    height:40px;
+        /* background-color: red; */
+
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1125px;
+    top: 620px;
+    border-radius:50% ;
+    gap: 5px;
+    position: absolute;}
+    
+.fourteen5 p {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+    color: black;
+    /* margin-left: 5px; */
+}
+.ha p {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Momo Trust Sans", sans-serif;
+    color: rgb(74, 60, 60);
+    margin-left: 880px;
+    margin-top:200px ;
+    position: absolute;
+}
+.piu img {
+    width: 220px;
+    height: 85px;
+    left: 120px;
+    top: 640px;
+    position: absolute;
+    /* background-color: white; */
+    /* border-radius: 11px; */
+}
