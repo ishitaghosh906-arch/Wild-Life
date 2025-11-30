@@ -28,7 +28,7 @@ nav {
 
 .two {
     width: 320px;
-    height: 45px;
+    height: 40px;
     /* background-color: red; */
 
     background-color: #FFFFFF;
@@ -38,22 +38,257 @@ nav {
     margin-left: 400px;
     margin-top: 30px;
     border-radius: 15px;
-
 }
+
 
 .two p {
     font-size: 14px;
     font-weight: 600;
     font-family: "Momo Trust Sans", sans-serif;
 
+
 }
+
+.two-one{
+    width:25%;
+    height:40px ;
+    border-radius: 15px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      position: relative;
+    overflow: hidden;
+}
+.two-one p{
+      transition: color 0.3s ease; 
+        position: relative;
+    z-index: 2;  
+     font-size: 14px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+}
+.two-one::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    
+    bottom: -100%;       /* নিচে লুকানো থাকে */
+    width: 100%;
+    height: 50%;        /* একটু অংশ দেখা যায় */
+    background: #FA5424;
+    transition: bottom 0.4s ease;
+}
+.two-one::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition:bottom 0.45s ease;
+     transition-delay: 0.25s; 
+     
+}
+.two-one:hover::before{
+    bottom: 0;  
+    
+}
+
+.two-one:hover::after{
+    bottom: 0;  
+    
+    
+}
+.two-one:hover p{
+    color: white;
+}
+
+
+
+
+
+
+.two-two{
+    width:25%;
+    height:40px ;
+    border-radius: 15px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #33C791; */
+    
+  position: relative;
+    overflow: hidden;
+}
+.two-two p{
+      transition: color 0.3s ease; 
+        position: relative;
+    z-index: 2;  
+     font-size: 14px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+}
+.two-two::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;       /* নিচে লুকানো থাকে */
+    width: 100%;
+    height: 50%;        /* একটু অংশ দেখা যায় */
+    background:#FA5424;
+    transition: bottom 0.4s ease;
+}
+.two-two::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition:bottom 0.45s ease;
+     transition-delay: 0.25s; 
+     
+}
+.two-two:hover::before{
+    bottom: 0;          /* orange layer উপরে উঠে যাবে */
+}
+
+.two-two:hover::after{
+    bottom: 0;  
+    
+}
+.two-two:hover p{
+    color: white;
+}
+
+
+
+
+
+
+.two-three p{
+      transition: color 0.3s ease; 
+        position: relative;
+    z-index: 2;  
+     font-size: 14px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+}
+
+
+.two-three{
+    width:25%;
+    height:40px ;
+    border-radius: 15px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #FA5424; */
+    position: relative;
+    overflow: hidden;
+  /* transition: color 0.3s ease;  */
+    
+}
+
+.two-three::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;       /* নিচে লুকানো থাকে */
+    width: 100%;
+    height: 50%;        /* একটু অংশ দেখা যায় */
+    background: #FA5424;
+    transition: bottom 0.4s ease;
+}
+.two-three::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition:bottom 0.45s ease;
+     transition-delay: 0.25s; 
+     
+}
+.two-three:hover::before{
+    bottom: 0;          /* orange layer উপরে উঠে যাবে */
+}
+
+.two-three:hover::after{
+    bottom: 0;  
+    
+}
+.two-three:hover p{
+    color: white;
+}
+ .two-four{
+    width:25%;
+    height:40px ;
+    border-radius: 15px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #28AAFF; */
+      position: relative;
+    overflow: hidden;
+}
+.two-four p{
+      transition: color 0.3s ease; 
+        position: relative;
+    z-index: 2;  
+     font-size: 14px;
+    font-weight: 600;
+    font-family: "Momo Trust Sans", sans-serif;
+}
+.two-four::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;       /* নিচে লুকানো থাকে */
+    width: 100%;
+    height: 50%;        /* একটু অংশ দেখা যায় */
+    background: #FA5424;
+    transition: bottom 0.4s ease ;
+}
+.two-four::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition:bottom 0.45s ease;
+     transition-delay: 0.25s; 
+     
+}
+.two-four:hover::before{
+    bottom: 0;          /* orange layer উপরে উঠে যাবে */
+}
+
+.two-four:hover::after{
+    bottom: 0;  
+    
+}
+.two-four:hover p{
+    color: white;
+}
+
+
+
 
 .three {
     width: 140px;
     height: 40px;
         /* background-color: red; */
 
-    background-color:#FCB8FA;
+    /* background-color:#FCB8FA; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,32 +296,27 @@ nav {
     margin-top: 30px;
     border-radius: 15px;
     gap: 5px;
-    transition-property:all ;
+     transition-property:all ;
     transition-duration: .2s;
     transition-timing-function: linear;
-
-
-
+    background: linear-gradient(to right, #f7dfee,#f08fed );
+       color: black;
+  /* border: 2px solid #000; */
+  transition: background 0.6s ease, color 0.6s ease;
 }
+
+
+
 .three:hover{
     transform: rotate(-8deg);
-    border-radius: 9px;
-    height: 45px;
-    width: 145;
-    /* transform: scale(1.2); */
-    /* background-color: rgb(240, 114, 240); */
-    color: white;
-    animation:background-colorchange 2s;
-    
-}
-@keyframes background-colorchange{
-    0%{background-color:rgb(248, 87, 213) ;}
-    25%{background-color:rgb(203, 82, 203);}
-    50%{background-color:rgb(241, 70, 241) ;}
-    75%{background-color:rgb(230, 68, 230) ;}
-    100%{background-color: rgb(243, 118, 224);}
-    
-}
+    /* border-radius: 9px; */
+    /* height: 45px; */
+    /* width: 145; */
+     background: linear-gradient(to right, rgb(212, 250, 151), #85af1a); /* left to right color change */
+  color: rgb(1, 113, 1); /* font color change */
+} 
+
+
 
 .three img {
     width: 30px;
@@ -153,7 +383,11 @@ nav {
     justify-content: space-around;
     align-items: center; 
     gap: 40px;
+
 }
+
+
+
 
 .section-two-one {
     width: 25%;
@@ -187,7 +421,7 @@ nav {
     height: 45px;
     width: 145; */
     /* transform: scale(1.2);
- */ */
+ */ 
 
 
 
@@ -511,9 +745,37 @@ nav {
     align-items: center;
     margin-top: 60px;
     margin-left:60px ;
+    /* background: #6e2525;
+  color: #000;
+  text-align: center;
+   position: relative;
+  overflow: hidden;
+  /* border-radius: 10px; */
+  /* cursor: pointer;  */
     
     
 }
+
+/* .section-five-one-one::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0%;
+  height: 100%;
+  background: black;
+  transform: translateX(-50%);
+  transition: 0.4s ease;
+  z-index: -1;
+}
+
+.section-five-one-one:hover::before {
+  width: 100%;
+}
+
+.section-five-one-one:hover {
+  color: rgb(49, 53, 177);
+} */
 
 
 
@@ -1173,98 +1435,47 @@ nav {
     line-height: 60px;
 }
 .section-twelve{
-    width:1500px;
-    height:280px;
-    /* background-color: #FCB8FA; */
+    width:100%;
+    height:270px;
+    /* border:1px solid red ; */
+    /* display: flex; */
+    overflow: hidden;
+    /* margin-left: 200px; */
+}
+.section-twelve1{
     display: flex;
-    justify-content: space-around;
-    margin-left: 10px;
-    margin-right: 10px;
-    gap:10px;
-
+    width: max-content;
+    animation: spin 30s infinite linear;
+    /* background-color: #0D8DFF; */
+    gap:15px;
 
 }
-.section-twelve-one{
-    width:20%;
-    height: 280;
-    border:1px solid #161616;
-    border-radius:20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+@keyframes spin{
+   0%{
+    transform: translateX(0);
+   }
+    100%{
+    transform: translateX(-50%);
+   }
+
+}
+
+.card{
+    width: 400px;
+    /* width:20%; */
+    height:270px ;
+    background-color: #f08fed;
+    /* border-right:5px solid black; */
     object-fit: cover;
+        border-radius: 30px;
+
+    
 }
-.section-twelve-one img{
+.card img{
+    width:100% ;
     height:100% ;
-    width: 100%;
-    border-radius: 19px;
-}
-
-.section-twelve-two{
-    width:20%;
-    height: 280;
-    border:1px solid #161616;
-    border-radius: 20px;
-      display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-}
-.section-twelve-two img{
-    height:100% ;
-    width: 100%;
-    border-radius: 19px;
-}
-
-
-.section-twelve-three{
-    width:20%;
-    height: 280;
-    border:1px solid #161616;
-    border-radius: 20px;
-      display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-}
-.section-twelve-three img{
-    height:100% ;
-    width: 100%;
-    border-radius: 19px;
-}
-
-
-.section-twelve-four{
-    width:20%;
-    height: 280;
-    border:1px solid #161616;
-    border-radius: 20px;
-      display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-}
-.section-twelve-four img{
-    height:100% ;
-    width: 100%;
-    border-radius: 19px;
-}
-
-
-.section-twelve-five{
-    width:20%;
-    height: 280;
-    border:1px solid #161616;
-    border-radius: 20px;
-      display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-}
-.section-twelve-five img{
-    height:100% ;
-    width: 100%;
-    border-radius: 19px;
+    border-radius: 30px;
 }
 
 
@@ -1460,7 +1671,46 @@ footer{
     top: 550px;
     border-radius: 8px;
     gap: 5px;
-    position: absolute;}
+    position: absolute;
+   position: relative;
+    overflow: hidden;
+}
+
+.fourteeng::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;       /* নিচে লুকানো থাকে */
+    width: 100%;
+    height: 50%;        /* একটু অংশ দেখা যায় */
+    background: #FA5424;
+    transition: bottom 0.4s ease ;
+}
+.fourteeng::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition:bottom 0.45s ease;
+     transition-delay: 0.25s; 
+     
+}
+.fourteeng:hover::before{
+    bottom: 0;          /* orange layer উপরে উঠে যাবে */
+}
+
+.fourteeng:hover::after{
+    bottom: 0;  
+    
+}
+.fourteeng:hover p{
+    color: white;
+}
+
+
     
 .fourteeng p {
     font-size: 15px;
@@ -1468,6 +1718,9 @@ footer{
     font-family: "Momo Trust Sans", sans-serif;
     color: black;
     margin-left: 5px;
+    transition: color 0.3s ease; 
+        position: relative;
+    z-index: 2;  
 }
 .fourteenh{
     width: 60px;
@@ -1478,19 +1731,64 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 980px;
+    left: 890px;
     top: 550px;
     border-radius: 8px;
     gap: 5px;
-    position: absolute;}
+    position: absolute;
     
+   position: relative;
+    overflow: hidden;
+}
+    
+
+ 
+.fourteenh::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;       /* নিচে লুকানো থাকে */
+    width: 100%;
+    height: 50%;        /* একটু অংশ দেখা যায় */
+    background: #FA5424;
+    transition: bottom 0.4s ease ;
+}
+.fourteenh::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition:bottom 0.45s ease;
+     transition-delay: 0.25s; 
+     
+}
+.fourteenh:hover::before{
+    bottom: 0;          /* orange layer উপরে উঠে যাবে */
+}
+
+.fourteenh:hover::after{
+    bottom: 0;  
+    
+}
+.fourteenh:hover p{
+    color: white;
+}
 .fourteenh p{
     font-size: 15px;
     font-weight: 600;
     font-family: "Momo Trust Sans", sans-serif;
     color: black;
     margin-left: 5px;
+     transition: color 0.3s ease; 
+        position: relative;
+    z-index: 2; 
 }
+ 
+
+
 .fourteeno{
     width: 60px;
     height: 35px;
@@ -1500,11 +1798,15 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 1050px;
+    left: 900px;
     top: 550px;
     border-radius: 8px;
     gap: 5px;
-    position: absolute;}
+    position: absolute;
+     position: relative;
+    overflow: hidden;
+     
+}
     
 .fourteeno p {
     font-size: 15px;
@@ -1512,7 +1814,45 @@ footer{
     font-family: "Momo Trust Sans", sans-serif;
     color: black;
     margin-left: 5px;
+    transition: color 0.3s ease; 
+        position: relative;
+    z-index: 2; 
 }
+.fourteeno::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;       /* নিচে লুকানো থাকে */
+    width: 100%;
+    height: 50%;        /* একটু অংশ দেখা যায় */
+    background: #FA5424;
+    transition: bottom 0.4s ease ;
+}
+.fourteeno::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition:bottom 0.45s ease;
+     transition-delay: 0.25s; 
+     
+}
+.fourteeno:hover::before{
+    bottom: 0;          /* orange layer উপরে উঠে যাবে */
+}
+
+.fourteeno:hover::after{
+    bottom: 0;  
+    
+}
+.fourteeno:hover p{
+    color: white;
+}
+
+
 .fourteens{
     width: 90px;
     height: 35px;
@@ -1522,11 +1862,14 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 1120px;
+    left: 910px;
     top: 550px;
     border-radius: 8px;
     gap: 5px;
-    position: absolute;}
+    position: absolute;
+      position: relative;
+    overflow: hidden;
+}
     
 .fourteens p {
     font-size: 15px;
@@ -1534,7 +1877,44 @@ footer{
     font-family: "Momo Trust Sans", sans-serif;
     color: black;
     margin-left: 5px;
+    transition: color 0.3s ease; 
+        position: relative;
+    z-index: 2; 
 }
+.fourteens::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;       /* নিচে লুকানো থাকে */
+    width: 100%;
+    height: 50%;        /* একটু অংশ দেখা যায় */
+    background: #FA5424;
+    transition: bottom 0.4s ease ;
+}
+.fourteens::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition:bottom 0.45s ease;
+     transition-delay: 0.25s; 
+     
+}
+.fourteens:hover::before{
+    bottom: 0;          /* orange layer উপরে উঠে যাবে */
+}
+
+.fourteens:hover::after{
+    bottom: 0;  
+    
+}
+.fourteens:hover p{
+    color: white;
+}
+
 .fourteen1 p {
     font-size: 17px;
     font-weight: 700;
